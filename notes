@@ -1,0 +1,12 @@
+// ********Timeline***********
+// 1-when we create a new timeline is like the poin of the start timing
+// 2- by default the animation are adde in the end of the timeline
+// 3-if we want to set the time when an animation will start we can use tines in second
+// tl.fromTo("target" , {from} , {to} , timeToStartTheAnimation after the timeline start animation after the timeline start)
+// "<" The start of previous animation**. Think of < as a pointer back to the start of the previous animation.
+// ">" - The end of the previous animation**. Think of > as a pointer to the end of the previous animation
+// "+=1" - 1 second past the end of the timeline (creates a gap)
+// "-=1" - 1 second before the end of the timeline (overlaps)
+
+// ************Staggger*************
+// is like the duration betwwn the same animation for the samr targets in the to object
